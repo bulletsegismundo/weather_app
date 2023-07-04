@@ -5,8 +5,6 @@
   --secondary-color: #F3A2BB;
   --secondary-light: #6A6D9E;
   --secondary-dark: #16194F;
-
-
 }
 
 *,
@@ -148,16 +146,14 @@ p.app-details span.developer {
 }
 
 ul.result-lists {
-  /* opacity: 0; */
-  opacity: 1;
-  /* transition: opacity 0.15s ease-in-out; */
+  opacity: 0;
+  transition: opacity 0.15s ease-in-out;
   background-color: #ffffff;
   position: relative;
   z-index: 1;
   width: 100%;
   transform: translateY(-25px);
   padding-top: 25px;
-  /* padding: 50px 30px 25px 30px; */
   background: #FFFFFF;
   border-radius: 0px 0px 30px 30px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -194,7 +190,6 @@ ul.result-lists .result-list-item span{
   font-size: 18px;
   font-weight: 400;
 }
-
 
 .bg-cloud-big {
   position: absolute;
