@@ -1,0 +1,105 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta
+      name="description"
+      content="Web App that uses Geo and Weather API "
+    />
+
+    <script type="module" src="main.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="search-bar-group">
+        <i class="icon-magnifier"></i>
+        <i class="bg-cloud-small"></i>
+        <input type="search" class="search-bar" id="searchBar" placeholder="Search for location">
+        <p class="app-details">
+          <span class="web-app">Weather App</span>
+          <i class="separator-details"></i>
+          Developed By&nbsp;
+          <span class="developer">Gerard Martin Segismundo</span>
+          <i class="icon-github"></i>
+        </p>
+      </div>
+            
+      
+      <ul class="result-lists" id="resultLists" style="opacity: 1;"><li class="result-list-item">
+        <img class="icon-flag" src="https://hatscripts.github.io/circle-flags/flags/us.svg" width="25" alt="US" flag="">
+        <span>
+          Oxnard California (34.2°E -119.18°N 16m asl)
+        </span>
+      </li><li class="result-list-item">
+        <img class="icon-flag" src="https://hatscripts.github.io/circle-flags/flags/mx.svg" width="25" alt="MX" flag="">
+        <span>
+          Oxnard Chiapas (17.41°E -91.54°N 49m asl)
+        </span>
+      </li><li class="result-list-item">
+        <img class="icon-flag" src="https://hatscripts.github.io/circle-flags/flags/bb.svg" width="25" alt="BB" flag="">
+        <span>
+          Oxnards Saint Michael (13.15°E -59.63°N 80m asl)
+        </span>
+      </li><li class="result-list-item">
+        <img class="icon-flag" src="https://hatscripts.github.io/circle-flags/flags/us.svg" width="25" alt="US" flag="">
+        <span>
+          Oxnard Beach California (34.16°E -119.23°N 4m asl)
+        </span>
+      </li><li class="result-list-item">
+        <img class="icon-flag" src="https://hatscripts.github.io/circle-flags/flags/us.svg" width="25" alt="US" flag="">
+        <span>
+          Oxnard Shores California (34.19°E -119.24°N 3m asl)
+        </span>
+      </li><li class="result-list-item">
+        <img class="icon-flag" src="https://hatscripts.github.io/circle-flags/flags/us.svg" width="25" alt="US" flag="">
+        <span>
+          Oxnard Airport California (34.2°E -119.21°N 11m asl)
+        </span>
+      </li><li class="result-list-item">
+        <img class="icon-flag" src="https://hatscripts.github.io/circle-flags/flags/us.svg" width="25" alt="US" flag="">
+        <span>
+          Oxnard Beach Park California (34.18°E -119.24°N 4m asl)
+        </span>
+      </li><li class="result-list-item">
+        <img class="icon-flag" src="https://hatscripts.github.io/circle-flags/flags/us.svg" width="25" alt="US" flag="">
+        <span>
+          Oxnard Shores Park California (34.2°E -119.24°N 6m asl)
+        </span>
+      </li></ul>
+      <!-- <ul id="resultLists" class="result-lists"></ul> -->
+      
+      <div id="weatherResult">
+        
+      </div>
+    
+    
+    
+    <!--   
+      <div id="weatherResult"><h3><b>
+      </b>      
+      
+      Manila National Capital Region</h3>
+      <h2>84.9°F</h2>
+      <h4>Rain showers: Slight, moderate, and violent</h4>
+      <p>Humidty | 69%</p>
+      <p>Wind | 4.6kph</p>
+    </div> -->
+  </div>
+
+
+
+
+
+    <i class="bg-cloud-big"></i>
+    
+  </body>
+  </html>
